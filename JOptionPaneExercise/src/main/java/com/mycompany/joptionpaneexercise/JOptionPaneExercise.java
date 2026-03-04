@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.joptionpaneexercise;
 
-/**
- *
- * @author CALBIX
- */
+import javax.swing.JOptionPane;
+
 public class JOptionPaneExercise {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String name = JOptionPane.showInputDialog("What is your name: ");
+        
+        JOptionPane.showMessageDialog(null, "Your name is " + name + "!");
     }
 }
